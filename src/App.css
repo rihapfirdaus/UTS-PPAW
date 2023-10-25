@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-menu {
+  background-color: #FFF;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-1{
   display: flex;
   flex-direction: column;
+  justify-content: end;
+  padding: 50px;
+}
+
+.header-1 h1{
+  font-weight: bold;
+  font-size: 64px;
+}
+.header-1 p{
+  font-size: 24px;
+  margin: 32px 0;
+}
+
+.header-2{
+  background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover; 
+  background-position: center; 
+  height: 100%; 
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: white; 
+}
+
+.app-button{
+  background-color: #050038;
+  padding: 16px 72px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header-link{
+  color: black;
+  padding: 16px 64px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main-container{
+  text-align: center;
+  padding: 150px 0;
+}
+
+.main-container p {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: larger;
+}
+
+.main-container h3 {
+  font-size: 36px;
+  margin: 16px;
+}
+
+.main-container-2 {
+  display: flex;
+  align-items: center;
+}
+
+.main-container-2 h2, .main-container-2 p{
+  margin: 24px 0;
+}
+
+.second-main{
+  display: flex;
+  
+}
+
+.demo-container{
+  padding-right: 20px;
+}
+
+.demo-container h2{
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.demo-container p {
+  margin: 32px 0;
+  font-size: 24px;
+  text-align: start;
+}
+
+.footer-comp {
+  margin-top: 150px;
+  padding: 50px;
+  background-color: #050038;
+  text-align: center;
+}
+
+.icon-footer{
+  font-size: 36px;
+  margin: 10px;
+}
+
+.footer-comp .footer-link{
+  margin: 80px 0;
+}
+
+.footer-comp .footer-link a{
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 8px 5px;
+}
+
+@media only screen and (max-width: 1400px){
+  .main-container{
+    padding: 50px 0;
   }
-  to {
-    transform: rotate(360deg);
+  .footer-comp .footer-link{
+    margin: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .header-1{
+    padding: 10px;
+  }
+  .header-1 h1{
+    font-size: 52px;
+  }
+  .header-1 p{
+    font-size: 20px;
+  }
+  .header-nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .app-button, .header-link{
+    margin: 20px;
+    text-align: center;
+  }
+  .main-container{
+    padding: 50px 0;
+  }
+  .main-container h3{
+    font-size: 28px;
+  }
+  .main-container p{
+    font-size: 16px;
+  }
+  .second-main h2{
+    font-size: 40px;
+  }
+  .second-main p{
+    font-size: 18px;
+  }
+  .demo-container{
+    display: flex;
+    flex-direction: column;
+  }
+  button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-footer{
+    font-size: 30px;
+    margin: 5px;
+  }
+  .footer-comp{
+    padding: 30px 10px;
+  }
+  .footer-comp .footer-link{
+    margin: 20px 0;
+  }
+  .footer-comp .footer-link a{
+    font-size: 16px;
+    margin: 5px;
   }
 }
