@@ -25,13 +25,13 @@ export default class NavbarComp extends Component {
             <Nav.Link className="me-5 ms-5" href="#home">
               Home
             </Nav.Link>
-            <Nav.Link className="me-5 ms-5" href="https://wa.me/+6289522664281">
+            <Nav.Link className="me-5 ms-5" href="https://wa.me/+6289522664281" target="blank">
               Contact
             </Nav.Link>
             <Nav.Link className="me-5 ms-5" href="https://profile.thedreams.tech/CurriculumVitae/basic/" target="blank">
               About Me
             </Nav.Link>
-            <Nav.Link className="me-5 ms-5" href="https://github.com/rihapfirdaus/UTS-PPAW/blob/master/README.md">
+            <Nav.Link className="me-5 ms-5" href="https://github.com/rihapfirdaus/UTS-PPAW/blob/master/README.md" target="blank">
               Docs
             </Nav.Link>
           </Nav>

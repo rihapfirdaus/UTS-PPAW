@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { Col, Row, Container } from "react-bootstrap";
 
 export default class HeaderComp extends Component {
+    handleEmailClick = () => {
+      const email = 'mailto:muhammadrihap448@gmail.com';
+      window.location.href = email;
+    };
   render() {
     return (
       <Container fluid id="home">
@@ -14,7 +18,7 @@ export default class HeaderComp extends Component {
                 bussines and company
                 </p>
                 <div className="header-nav">
-                    <button className="app-button" onclick="window.location.href = 'mailto:muhammadrihap448@gmail.com'">Message Me</button>
+                    <button className="app-button" onClick={this.handleEmailClick}>Message Me</button>
                     <a href="https://github.com/rihapfirdaus?tab=repositories" className="header-link">See my project</a>
                 </div>
             </div>
@@ -26,3 +30,4 @@ export default class HeaderComp extends Component {
     );
   }
 }
+

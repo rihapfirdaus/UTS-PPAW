@@ -124,6 +124,9 @@
 }
 
 @media only screen and (max-width: 600px){
+  body{
+    overflow-x: hidden;
+  }
   .header-1{
     padding: 10px;
   }
