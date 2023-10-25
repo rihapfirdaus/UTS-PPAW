@@ -1,7 +1,8 @@
 # Project UTS Praktikum Pengembangan Aplikasi Web
 
 Nama : Muhammad Rihap Firdaus
-NiM  : 1217050102
+
+NIM  : 1217050102
 
 ## Table Of Content
 > 1. [Deskripsi](https://github.com/rihapfirdaus/UTS-PPAW/blob/master/README.md#description)
