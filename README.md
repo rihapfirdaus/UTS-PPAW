@@ -1,10 +1,10 @@
 # Project UTS Praktikum Pengembangan Aplikasi Web
 
-##Table Of Content
-> 1. [Deskripsi](https://github.com/rihapfirdaus/UTS-PPAW/edit/master/README.md#deskripsi)
-> 2. [Feature](https://github.com/rihapfirdaus/UTS-PPAW/edit/master/README.md#feature)
-> 3. [User Interface (Image)](https://github.com/rihapfirdaus/UTS-PPAW/edit/master/README.md#user-interface-image-version)
-> 4. [User Interface (Gif)](https://github.com/rihapfirdaus/UTS-PPAW/edit/master/README.md#user-interface-gif-version)
+## Table Of Content
+> 1. [Deskripsi](https://github.com/rihapfirdaus/UTS-PPAW/blob/master/README.md#description)
+> 2. [Feature](https://github.com/rihapfirdaus/UTS-PPAW/blob/master/README.md#feature)
+> 3. [User Interface (Image)](https://github.com/rihapfirdaus/UTS-PPAW/blob/master/README.md#user-interface-image-version)
+> 4. [User Interface (Gif)](https://github.com/rihapfirdaus/UTS-PPAW/blob/master/README.md#user-interface-gif-version)
 
 ## Description
 Project ini menggunakan Framework React-Boostrap, dan dibangun secara responsive untuk tampilan mobile, tablet, dan dekstop. [link project](https://rihapfirdaus.github.io/UTS-PPAW/)
