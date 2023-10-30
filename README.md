@@ -47,11 +47,6 @@ Website ini terdiri dari:
 
 ![mobile](https://github.com/rihapfirdaus/UTS-PPAW/blob/master/documentation/MobilePreview.png?raw=true)
 
-## Feature
-- Navbar Responsive
-
-![tabletNav](https://github.com/rihapfirdaus/UTS-PPAW/blob/master/documentation/TabletNav.gif?raw=true)
-
 ## User Interface (gif version)
 - UI pada dekstop
 
